@@ -44,7 +44,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 0;
-    margin-bottom: 1.5 * $indent;
+    margin-bottom: (1.5 * $indent);
   }
 
   &__reviews {
@@ -103,12 +103,12 @@
     transform: scale(1.2);
   }
 
-  &:hover > &__buy {
+  &:hover > .card__buy {
     background-color: $white;
     color: $blue;
   }
 
-  &:hover > &__title {
+  &:hover > .card__title {
     color: #34568b;
   }
 }
